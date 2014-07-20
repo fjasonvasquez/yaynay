@@ -4,5 +4,5 @@ When /^I search for (.*)$/ do |term|
 end
 
 Then /^apple should have a higher score than microsoft$/ do
-	@scores["apple"].should be > @scores["microsoft"]
+	@scores["yay"].should be > @scores["nay"]
 	end
